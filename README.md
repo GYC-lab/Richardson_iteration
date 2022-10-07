@@ -182,8 +182,8 @@ $$
    displayed.
 
    In addition, the program written by C language is also developed to
-   realise Richardson iteration (see `Richardson_iteration_C_version.c`),
-   with the aim of reviewing C language and make better use of C+PETSc.
+   realise Richardson iteration (see `Richardson_iteration_C_version.c`).
+ 
 
    
 
