@@ -1,8 +1,8 @@
-<center><big><b>Richardson Iteration</b></big></center>
+### Richardson Iteration
 
-<center><small>Yuchen Ge</small></center>
+Author: Yuchen Ge
 
-<center><small>Fall, 2022</small></center>
+Date: Fall, 2022
 
 #### **1. Introduction**
 
