@@ -86,10 +86,14 @@ $$
 
    $$\rho_{opt}=\frac{\lambda_{max}-\lambda_{min}}{\lambda_{max}+\lambda_{min}}$$
 
-   The calculated results are $\alpha_{opt}=0.200000$,
-   $\rho_{opt}=0.632456$. And the range of $\rho$ for the Richardson
-   iteration to convergence is $(0.000000,0.245030)$. Since $\alpha_6$ is
-   out of the convergence range($\alpha_6=0.4>0.245030$), the case of
+   The calculated results are 
+   
+   - $\alpha_{opt}=0.200000$
+   - $\rho_{opt}=0.632456$ 
+   - the range of $\alpha$ for the Richardson iteration to convergence is $(0.000000,0.245030)$. 
+   
+   Since $\alpha_6$ is
+   out of the convergence range, the case of
    $\alpha_6=0.4$ will diverge. And for the given linear system, the
    Richardson iteration converge with $\alpha = 0.06,0.1,0.2,0.22,0.24$. As
    the current relaxation parameter is closer to the $\alpha_{opt}$, the
