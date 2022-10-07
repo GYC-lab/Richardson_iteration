@@ -143,7 +143,28 @@ print(img,[filename,'.png'], '-dpng', '-r600');
 %% calculate the spectral radius of preconditioned iteration
 B_=I-1*A_pre;
 lambda_=eig(B_);                          % get eigenvalues
-rho_=max(abs(lambda_));                    % get the max eigenvaluerho = max(abs(lambda));                 
+rho_=max(abs(lambda_));                    % get the max eigenvalue
+
+%% optimal preconditioner
+M_opt=inv(A);
+A_pre_opt=inv(A)*A;
+b_pre_opt=inv(A)*b;
+
+figure
+[v,e,r]=Richardson_iteration(A,b,alpha_opt,num_steps);
+plot(e); hold on;
+[v,e,r]=Richardson_iteration(A_pre,b_pre,1,num_steps);
+plot(e); hold on;
+[v,e,r]=Richardson_iteration(A_pre_opt,b_pre_opt,1,num_steps);
+plot(e); 
+% set(gca,'yscale','log');
+set(gca,'XLim',[0 num_steps]);
+set(gca,'YLim',[0 1]);
+set(gca,'FontName','Times New Roman');
+xlabel('Steps','interpreter','latex'); ylabel('$|u-u_{ex}|$','interpreter','latex');
+legend('$\alpha_{opt}=0.200000$','preconditioned','optimal','Location','northeast','interpreter','latex');
+legend('boxoff');
+
 %% output results on screen
 fprintf('lambda_max is %.6f \n',max_eig);
 fprintf('lambda_min is %.6f \n',min_eig);
