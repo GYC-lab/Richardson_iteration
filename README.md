@@ -1,8 +1,7 @@
-
-<center>  </center>
-
 <center><big><b>Richardson Iteration</b></big></center>
+
 <center><small>Yuchen Ge</small></center>
+
 <center><small>Fall, 2022</small></center>
 
 #### **1. Introduction**
