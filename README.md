@@ -1,3 +1,11 @@
+Project: Richardson Iteration
+
+Author : Yuchen Ge
+
+Date   : Fall 2022
+
+Course : Num. Sol. PDEs 
+
 1. #### **1. Introduction**
    
    We are concerned with solving a given linear system
@@ -64,8 +72,8 @@
    been calculated. The convergence curve of the first 50 steps are shown in the figure below.
    
    
-   <img src="./images/1_convergence_curve_for_every_alpha.png" alt="figure1" align ="center" width="40%">
-   
+   <div align=center><img width="400" src="./images/1_convergence_curve_for_every_alpha.png"/></div>
+
    ##### 2.2. The condition of convergence
    
    The constrant for the Richardson iteration to convergence is
@@ -101,7 +109,7 @@
    $\alpha_{opt}$ has been shown in the figure below, which is close to a straight
    line. 
 
-   <div align=center><img width="60%" src="./images/2_convergence_curve_for_optimal_alpha.png"/></div>
+   <div align=center><img width="400" src="./images/2_convergence_curve_for_optimal_alpha.png"/></div>
 
    In addition, we are concerned with the rate of convergence $\mu$.
    In this work, the rate of convergence is calculated with errors. We
@@ -135,10 +143,7 @@
    the aid of MATLAB. The convergence curve of the first 50
    steps are shown in the following figure.
    
-   
-
-   
-   <img src='./images/3_convergence_curve_for_every_alpha_after_preconditioning.png' alt="figure1" align ="center" width="40%">
+   <div align=center><img width="400" src="./images/3_convergence_curve_for_every_alpha_after_preconditioning.png"/></div>
    
    ##### 2.5. Discussion
    
@@ -150,7 +155,7 @@
    dig in the reason for this result, the preconditioned linear system
    $A'u=b'$ is rewritten as
    
-      <img src='./images/4_convergence_curve_for_every_alpha_after_preconditioning.png' alt="figure1" align ="center" width="40%">
+      <div align=center><img width="400" src="./images/4_convergence_curve_for_every_alpha_after_preconditioning.png"/></div>
 
     $${u}_{k+1}=(I-\alpha A')  {u}_k+\alpha  {b'}$$
    
