@@ -98,19 +98,17 @@
    ##### 2.3. The case of $\alpha_{opt}$
    
    The convergence curve with the optimal relaxation parameter
-   $\alpha_{opt}$ has been shown in Fig.
-   [[2](#optimal){reference-type="ref"
-   reference="optimal"}]{style="color: blue"}, which is close to a straight
-   line. In addition, we are concerned with the rate of convergence $\mu$.
+   $\alpha_{opt}$ has been shown in the figure below, which is close to a straight
+   line. 
+
+   <div align=center><img width="60%" src="./images/2_convergence_curve_for_optimal_alpha.png"/></div>
+
+   In addition, we are concerned with the rate of convergence $\mu$.
    In this work, the rate of convergence is calculated with errors. We
    assume that the error $e$ finally converges to $e^*=0$, then the rate of
    convergence is
-   
-   
 
-   <img src='./images/2_convergence_curve_for_optimal_alpha.png' alt="figure1" align ="center" width="40%">
-   
-   $$\mu = \lim_{n\rightarrow\infty} \frac{\left|e_{n+1}-e^*\right|}{\left|e_n-e^*\right|}$$
+   $$\mu = \lim_{n\rightarrow\infty} \frac{| e_{n+1}-e^*|}{|e_n-e^* |}$$
    
    After calculating, the rate of convergence is $0.632456$, which is
    consistent with $\rho_{opt}$.
@@ -120,11 +118,10 @@
    In this section, the diagonal elements of $A$ are selected to construct
    the left preprocessor to acceleration the iteration, that is 
    
-   $$M=
-       \left[\begin{array}{ll}
-           6 & 0 \\
-           0 & 4
-       \end{array}\right]$$
+   $$M=\left[\begin{array}{ll}
+     6 & 0 \\
+     0 & 4
+    \end{array}\right]$$
    
    Then the linear system is converted to $A'u=b'$ and the iteration
    equation is converted into the following form:
