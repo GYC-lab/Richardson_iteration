@@ -3,21 +3,37 @@
 #### **1. Introduction**
 
 We are concerned with solving a given linear system
-$$Au=b, \quad A \in {R}^{N \times N}, \quad b \in {R}^N$$ by an
-iteration scheme of the form
-$${u}_{k+1}= {u}_k+\alpha\left( {b}-A  {u}_k\right), \quad k=0,1,2, \ldots
-    \label{Richardson}$$ which is called as **Richardson iteration**.
+$$
+Au=b, \quad A \in {R}^{N \times N}, \quad b \in {R}^N
+$$
+by an iteration scheme of the form
+$$
+{u}_{k+1}= {u}_k+\alpha\left( {b}-A  {u}_k\right), \quad k=0,1,2, \ldots
+    \label{Richardson}
+$$
+which is called as **Richardson iteration**.
 The basic idea of Richardson iteration is to start with a guess and
 improve it. With different relaxation parameters $\alpha$, the iteration
 may diverge or converge with different speed. We can also convert
-([[\[Richardson\]](#Richardson){reference-type="ref"
-reference="Richardson"}]{style="color: blue"}) into the following form
-$${u}_{k+1}=(I-\alpha A ) {u}_k+\alpha {b}$$ where $I$ is the unit
+ into the following form
+$$
+{u}_{k+1}=(I-\alpha A ) {u}_k+\alpha {b}
+$$
+ where $I$ is the unit
 matrix. The definations of the residual and error are listed below:
-$${r}={b}-A {v}, \quad r \in {R}^N$$ $${e}={v}-{u}, \quad e \in {R}^N$$
+$$
+{r}={b}-A {v}, \quad r \in {R}^N
+$$
 
-As required by Homework 2, the linear system to be solved is
-$$\left[\begin{array}{ll}
+$$
+{e}={v}-{u}, \quad e \in {R}^N
+$$
+
+
+
+The linear system to be solved is
+$$
+\left[\begin{array}{ll}
         6 & 3 \\
         3 & 4
         \end{array}\right]\left[\begin{array}{l}
@@ -27,8 +43,8 @@ $$\left[\begin{array}{ll}
         -3 \\
         -9
         \end{array}
-    \right]$$
-
+    \right]
+$$
 In $\S$ [2]{style="color: blue"}, the numerical results obtained by
 Richardson iteration with a initial solution $x_0=[0.0,0.0]^T$ and
 different relaxation parameters $\alpha$ are prresented. In addition, a
