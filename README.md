@@ -2,7 +2,7 @@
 
 Author: Yuchen Ge
 
-Date: Fall, 2022
+Date: October 5, 2022
 
 #### **1. Introduction**
 
