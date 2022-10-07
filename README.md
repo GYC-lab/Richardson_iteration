@@ -51,7 +51,7 @@ reference="velocity"}]{style="color: blue"}.
 
 ::: {#errors}
   steps   $\alpha=0.06$   $\alpha=0.1$   $\alpha=0.2$   $\alpha=0.22$   $\alpha=0.24$   $\alpha=0.4$
-  ------- --------------- -------------- -------------- --------------- --------------- --------------
+------- --------------- -------------- -------------- --------------- --------------- --------------
   1       2.728369        2.469818       2.000000       1.948333        1.914158        2.280351
   2       2.402067        2.011219       1.264911       1.226250        1.281050        4.841487
   3       2.129703        1.641417       0.800000       0.795471        0.984463        10.955181
@@ -70,7 +70,7 @@ reference="velocity"}]{style="color: blue"}.
 
 ::: {#residuals}
   steps   $\alpha=0.06$   $\alpha=0.1$   $\alpha=0.2$   $\alpha=0.22$   $\alpha=0.24$   $\alpha=0.4$
-  ------- --------------- -------------- -------------- --------------- --------------- --------------
+------- --------------- -------------- -------------- --------------- --------------- --------------
   1       6.307139        4.743416       6.000000       6.958448        8.004998        17.492856
   2       4.826813        3.704727       3.794733       5.255294        7.286283        39.481641
   3       4.038605        3.016828       2.400000       4.050665        6.855425        89.418119
@@ -88,7 +88,7 @@ reference="velocity"}]{style="color: blue"}.
 []{#residuals label="residuals"}
 
 ![The convergence curves with different relaxation
-parameters](../images/1_convergence_curve_for_every_alpha.png){#velocity
+parameters](./images/1_convergence_curve_for_every_alpha.png){#velocity
 width="80%"}
 
 ::: center
@@ -131,7 +131,7 @@ assume that the error $e$ finally converges to $e^*=0$, then the rate of
 convergence is
 
 ![The convergence curve with the optimal relaxation parameter
-$\alpha_{opt}$](../images/2_convergence_curve_for_optimal_alpha.png){#optimal
+$\alpha_{opt}$](./images/2_convergence_curve_for_optimal_alpha.png){#optimal
 width="80%"}
 
 $$\mu = \lim_{n\rightarrow\infty} \frac{\left|e_{n+1}-e^*\right|}{\left|e_n-e^*\right|}$$
@@ -168,7 +168,7 @@ reference="preconditioning"}]{style="color: blue"}.
 
 ::: {#errors_preconditioning}
   steps   $\alpha=0.06$   $\alpha=0.1$   $\alpha=0.2$   $\alpha=0.22$   $\alpha=0.24$   $\alpha=0.4$
-  ------- --------------- -------------- -------------- --------------- --------------- --------------
+------- --------------- -------------- -------------- --------------- --------------- --------------
   1       3.044524        2.967006       2.777139       2.739913        2.702961        2.418677
   2       2.935271        2.794920       2.479970       2.422739        2.367299        1.980909
   3       2.833570        2.641738       2.239383       2.169841        2.103336        1.656098
@@ -187,7 +187,7 @@ reference="preconditioning"}]{style="color: blue"}.
 
 ::: {#residuals_preconditioning}
   steps   $\alpha=0.06$   $\alpha=0.1$   $\alpha=0.2$   $\alpha=0.22$   $\alpha=0.24$   $\alpha=0.4$
-  ------- --------------- -------------- -------------- --------------- --------------- --------------
+------- --------------- -------------- -------------- --------------- --------------- --------------
   1       2.130860        2.015952       1.733854       1.678560        1.623730        1.209339
   2       1.974223        1.775241       1.354140       1.283106        1.216457        0.833142
   3       1.833244        1.574680       1.099779       1.030373        0.968219        0.659215
@@ -205,7 +205,7 @@ reference="preconditioning"}]{style="color: blue"}.
 []{#residuals_preconditioning label="residuals_preconditioning"}
 
 ![The convergence curves after
-preconditioning](../images/3_convergence_curve_for_every_alpha_after_preconditioning.png){#preconditioning
+preconditioning](./images/3_convergence_curve_for_every_alpha_after_preconditioning.png){#preconditioning
 width="80%"}
 
 ::: center
@@ -213,7 +213,7 @@ width="80%"}
 :::
 
 ![The comparision of preconditioning and
-$\alpha_{opt}$](../images/4_convergence_curve_for_every_alpha_after_preconditioning.png){#compare
+$\alpha_{opt}$](./images/4_convergence_curve_for_every_alpha_after_preconditioning.png){#compare
 width="80%"}
 
 Figure [[4](#compare){reference-type="ref"
