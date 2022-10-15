@@ -192,6 +192,5 @@ $$
    
 
    #### Reference
-
-   1. Michelle Schatzman (2002), Numerical analysis: a mathematical
-      introduction, Clarendon Press, Oxford.
+   1. Ed Bueler. (2020). PETSc for Partial  Differential Equations. Society for Industrial and Applied Mathematics.
+   2. Michelle Schatzman (2002), Numerical analysis: a mathematical introduction, Clarendon Press, Oxford.
